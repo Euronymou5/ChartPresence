@@ -55,21 +55,23 @@ Para que Discord muestre una presencia con el nombre "TradingView" e iconos pers
 
 ## Opciones de Configuración (`config.cfg`)
 
-| Variable | Valor por defecto | Descripción |
-|---|---|---|
-| `DISCORD_CLIENT_ID` | `1370119629132795914` | Application ID de Discord Developer Portal. |
-| `DETECTION_INTERVAL` | `3.0` | Intervalo en segundos entre cada chequeo de estado. |
-| `DETAILS_FORMAT` | `Analizando {symbol}` | Plantilla para la primera línea de Discord RPC. |
-| `STATE_FORMAT` | `{timeframe} • {exchange}` | Plantilla para la segunda línea de Discord RPC. |
-| `SHOW_EXCHANGE` | `true` | Muestra u oculta el nombre del exchange. |
-| `SHOW_TIMEFRAME` | `true` | Muestra u oculta la temporalidad (si el layout tiene nombre con temporalidad). |
-| `CUSTOM_ASSET_ICONS` | `true` | Asigna iconos dinámicos HD por par/activo con fallback al logo de TradingView. |
-| `SHOW_PRICE` | `false` | Muestra el precio actual y variación porcentual en el estado. |
-| `SHOW_TIMESTAMP` | `true` | Muestra el contador de tiempo transcurrido. |
-| `INACTIVE_BEHAVIOR` | `clear` | `clear` oculta la presencia al cerrar TV; `idle` muestra estado en reposo. |
-| `LARGE_IMAGE_KEY` | `https://avatars...` | Fallback de imagen o clave personalizada en Discord Developer Portal. |
-| `LARGE_TEXT` | `TradingView` | Texto que se muestra al pasar el cursor sobre la imagen. |
-| `LOG_LEVEL` | `INFO` | Nivel de detalle en la consola (`INFO`, `DEBUG`, `WARNING`). |
+| Sección | Clave | Valor por defecto | Descripción |
+|---|---|---|---|
+| `[Discord]` | `client_id` | `1170029929543520326` | Application ID de Discord Developer Portal. |
+| `[Discord]` | `detection_interval` | `3.0` | Intervalo en segundos entre cada chequeo de estado. |
+| `[Display]` | `details_format` | `Analizando {symbol}` | Plantilla para la primera línea de Discord RPC. |
+| `[Display]` | `state_format` | `{timeframe} • {exchange}` | Plantilla para la segunda línea de Discord RPC. |
+| `[Display]` | `show_exchange` | `true` | Muestra u oculta el nombre del exchange. |
+| `[Display]` | `show_timeframe` | `true` | Muestra u oculta la temporalidad. |
+| `[Display]` | `show_price` | `false` | Muestra el precio actual y variación porcentual en el estado. |
+| `[Display]` | `show_timestamp` | `true` | Muestra el contador de tiempo transcurrido. |
+| `[Display]` | `custom_asset_icons` | `true` | Asigna iconos dinámicos HD por par/activo con fallback al logo de TradingView. |
+| `[Display]` | `inactive_behavior` | `idle` | `clear` oculta la presencia al cerrar TV; `idle` muestra estado en reposo. |
+| `[Assets]` | `large_image_key` | `https://s3.tradingview...` | Fallback de imagen o clave personalizada en Developer Portal. |
+| `[Assets]` | `large_text` | `TradingView` | Texto que se muestra al pasar el cursor sobre la imagen grande. |
+| `[Assets]` | `small_image_key` | *(vacío)* | Imagen secundaria en esquina (opcional). |
+| `[Assets]` | `small_text` | `TradingView` | Texto sobre la imagen pequeña. |
+| `[General]` | `log_level` | `INFO` | Nivel de detalle en la consola (`INFO`, `DEBUG`, `WARNING`). |
 
 ---
 
