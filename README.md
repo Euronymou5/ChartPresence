@@ -77,7 +77,10 @@ Para que Discord muestre una presencia con el nombre "TradingView" e iconos pers
 
 ## Imagenes
 
-<img width="265" height="110" alt="image" src="https://github.com/user-attachments/assets/36b60a43-a30d-4643-b57d-4c5ad289ff61" />
+| Analizando un activo  | Ausente  |
+| ------------ | ------------ |
+|<img width="265" height="110" alt="image" src="https://github.com/user-attachments/assets/36b60a43-a30d-4643-b57d-4c5ad289ff61"/>  |<img width="267" height="112" alt="image" src="https://github.com/user-attachments/assets/d0f34b66-12f2-4b84-b77d-9df9233a2265"/> |
+
 
 ## Contacto
 
