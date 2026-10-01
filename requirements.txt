@@ -1,0 +1,5 @@
+pypresence
+python-dotenv
+psutil
+pywin32
+pyinstaller
